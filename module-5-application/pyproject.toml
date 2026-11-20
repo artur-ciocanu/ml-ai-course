@@ -1,0 +1,16 @@
+[project]
+name = "module-5-application"
+version = "0.1.0"
+description = "Notebook environment for the Module 5 assignment."
+requires-python = ">=3.14"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "ipykernel",
+]
+
+[tool.uv]
+package = false
